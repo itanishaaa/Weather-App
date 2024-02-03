@@ -1,0 +1,75 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kalnia:wght@300&family=Lato:ital,wght@1,300&family=Montserrat:wght@300&family=Phudu:wght@700&family=Taviraj:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kalnia;
+}
+.card{
+    background: linear-gradient(135deg,#ad6f6f,#5b548a);
+    height: 500px;
+    width: 90%;
+    max-width: 380px;
+    padding-top: 15px;
+    border-radius: 36px;
+    margin: 30px 471px;
+    text-align: center;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 90px;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    border-radius: 27px;
+    height: 30px;
+font-size: 13px;
+width: 169px;
+text-align: center;
+}
+.search button i{
+    font-size: 24px;
+    cursor: pointer;
+border-radius: 27px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 20px;
+}
+.weather h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+.weather h2{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: -10px;
+    color: white;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+    margin-top: 50px;
+}
+.in p{
+    color: white;
+    font-size: 16px;
+    padding-top: 5px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 30px;
+    margin-right: 10px;
+}
